@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2829_jpg.rf.bd5cddd44e0954b57693ac705361de10.jpg</filename>
+	<path>2829_jpg.rf.bd5cddd44e0954b57693ac705361de10.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>412</width>
+		<height>412</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>insulator</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>70</xmin>
+			<xmax>369</xmax>
+			<ymin>213</ymin>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+</annotation>

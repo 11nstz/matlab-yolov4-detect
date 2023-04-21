@@ -1,4 +1,4 @@
-foler2 = "test";
+foler2 = "train";
 xmlFiles = dir(fullfile(foler2, '*.xml'));
 xml_num = length(xmlFiles);
 %//创建labeldata

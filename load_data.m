@@ -1,5 +1,5 @@
 
-data = load("trainingdata3.mat");
+data = load("traindatabase3-2508.mat");
 all_trainingdata = data.traindata;
 imds = imageDatastore(all_trainingdata.Source);
 blds=boxLabelDatastore(all_trainingdata(:,2:end));
@@ -14,3 +14,4 @@ train_ds=combine(imds,blds);
 %imds = imageDatastore(text_data.Source);
 %blds = boxLabelDatastore(text_data(:,2:end));
 %text_ds = combine(imds,blds);
+data=load("traindatabase2-1200.mat");
